@@ -1,9 +1,8 @@
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+ background-image: url(background.jpg);
+ background-size: cover;
 }
 .container{
-  border:solid black 1px;
   margin-top: 20vh;
 }
 .header,
@@ -15,7 +14,7 @@ body {
 
 .header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #f0f0f000;
+  border-bottom: 1px solid #a83e3e00;
 }
 .header h3 {
   margin-top: 0;
@@ -23,6 +22,10 @@ body {
   line-height: 40px;
   font-size: 40px;
 
+}
+
+.Heading-bookmark h2{
+  color: #6b6a6a;
 }
 div label{
   font-size: x-large;
@@ -34,14 +37,16 @@ div label{
 input[type=text] {
   border: none;
   border-bottom: 2px solid rgb(122, 120, 120);
+  background-color:rgba(0, 0, 0, 0.027);
+  
 }
 .btn-submit{
   margin:44px;
-  background-color: rgba(81, 83, 80, 0.699);
+  background-color: #6b6a6a56;
 }
 .footer {
   padding-top: 19px;
-  color: rgb(221, 120, 120);
+  color: #2c0404;
   border-top: 1px solid #6b6a6a;
 }
 
