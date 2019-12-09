@@ -20,34 +20,37 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
-  font-size: 40px;
+  font-size: 60px;
+  color: #cf5821;
 
 }
 
 .Heading-bookmark h2{
-  color: #6b6a6a;
+  color: #bb4c19;
 }
 div label{
   font-size: x-large;
   float: left;
-  color: #6d6969;
+  color:#ce6433;
   margin: 4px;
 }
 
 input[type=text] {
   border: none;
   border-bottom: 2px solid rgb(122, 120, 120);
-  background-color:rgba(0, 0, 0, 0.027);
+  background-color:#ce6433;
   
 }
 .btn-submit{
   margin:44px;
-  background-color: #6b6a6a56;
+  background-color: #a04a23;
 }
 .footer {
   padding-top: 19px;
-  color: #2c0404;
-  border-top: 1px solid #6b6a6a;
+  color: #3d1f11;
+  border-top: 3px solid #be3b1a;
+  font-weight:bold;
+  font-size: 18px;
 }
 
 @media (min-width: 768px) {
