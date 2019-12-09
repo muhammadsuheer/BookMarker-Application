@@ -1,0 +1,84 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container{
+  border:solid black 1px;
+  margin-top: 20vh;
+}
+.header,
+.marked,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f000;
+}
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  font-size: 40px;
+
+}
+div label{
+  font-size: x-large;
+  float: left;
+  color: #6d6969;
+  margin: 4px;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid rgb(122, 120, 120);
+}
+.btn-submit{
+  margin:44px;
+  background-color: rgba(81, 83, 80, 0.699);
+}
+.footer {
+  padding-top: 19px;
+  color: rgb(221, 120, 120);
+  border-top: 1px solid #6b6a6a;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.Heading-bookmark {
+  text-align: center;
+}
+.Heading-bookmark .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.marked {
+  margin: 40px 0;
+}
+.marked p + h4 {
+  margin-top: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .header,
+  .marked,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+    
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+
+}

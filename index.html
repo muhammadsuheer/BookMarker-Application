@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BookMark Site</title>
+
+    <!-- Bootstrap  CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body onload="fetchBookmarks()">
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+
+        </nav>
+        <h3 class="text-muted">Website Book Marker.</h3>
+      </div>
+
+      <div class="Heading-bookmark">
+        <h2>Bookmark Websites here</h2>
+        <form id="myForm">
+          <div class="form-heading">
+            <label>Site Name</label>
+            <input type="text" class="form-control" id="siteName" placeholder="Website Name">
+          </div>
+          <div class="form-heading">
+            <label>Site URL</label>
+            <input type="text" class="form-control" id="siteUrl" placeholder="Website URL">
+            <button type="submit" class="btn btn-submit">Submit</button>
+          </form>
+          </div>
+         
+      </div>
+
+      <div class="row marked">
+        <div class="col-lg-12">
+          <div id="bookmarksResults"></div>
+        </div>
+      </div>
+      <footer class="footer">
+        <p>Bookmarker by MuhammadSuheer 2019 .Inc</p>
+      </footer>
+
+    </div> 
+
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
